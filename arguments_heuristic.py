@@ -6,9 +6,9 @@ class Arguments:
     """
 
     def __init__(self, argv, prefix=""):
-        if (len(argv) < 1 or len(argv) > 6):
+        if len(argv) != 6:
             usage(argv)
-        
+
         # initializing default values
         self.instance = argv[1]
         self.num_nodes = int(argv[2])
@@ -32,4 +32,3 @@ def usage(argv):
     print("Example: " + exe + " data/instances " + " 50 " + " 100 " + " 8 " + " 4 ")
     print("")
     exit(1)
-
