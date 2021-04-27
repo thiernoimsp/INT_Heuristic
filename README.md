@@ -1,5 +1,5 @@
 # INT_Heuristic
 
-Usage: int_heuristic.py <instance_file>  <|D|>  <|F|>  <|V|>  <|M|>
+Usage: int_grasp_constructive.py <instance_file>  <|D|>  <|F|>  <|V|>  <|M|>
 
-Example: int_heuristic.py data/instances  50  100  8  4
+Example: int_grasp_constructive.py data/instances  50  100  8  4
